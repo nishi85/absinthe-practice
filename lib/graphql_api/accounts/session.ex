@@ -1,8 +1,8 @@
-defmodule  GraphqlApi.Accounts.Session do
+defmodule GraphqlApi.Accounts.Session do
   alias GraphqlApi.Accounts.User
   alias GraphqlApi.Repo
 
-  def authenticate(arg) do
+  def authenticate(args) do
     user = Repo.get_by(User, email: String.downcase(args.email))
 
     case check_password(user, args) do

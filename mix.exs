@@ -46,6 +46,7 @@ defmodule GraphqlApi.MixProject do
       {:absinthe, "~> 1.4"},
       {:absinthe_plug, "~> 1.4"},
       {:absinthe_ecto, "~> 0.1.3"},
+      {:guardian, "~> 1.0"},
     ]
   end
 
