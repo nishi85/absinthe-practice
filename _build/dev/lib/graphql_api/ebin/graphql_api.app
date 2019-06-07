@@ -16,6 +16,7 @@
                         'Elixir.GraphqlApiWeb.ErrorHelpers',
                         'Elixir.GraphqlApiWeb.ErrorView',
                         'Elixir.GraphqlApiWeb.Gettext',
+                        'Elixir.GraphqlApiWeb.Plugs.Context',
                         'Elixir.GraphqlApiWeb.Resolvers.SessionResolver',
                         'Elixir.GraphqlApiWeb.Resolvers.UserResolver',
                         'Elixir.GraphqlApiWeb.Router',
