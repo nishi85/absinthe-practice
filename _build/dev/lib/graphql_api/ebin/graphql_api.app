@@ -22,6 +22,7 @@
                         'Elixir.GraphqlApiWeb.Router',
                         'Elixir.GraphqlApiWeb.Router.Helpers',
                         'Elixir.GraphqlApiWeb.Schema',
+                        'Elixir.GraphqlApiWeb.Schema.Middleware.Authorize',
                         'Elixir.GraphqlApiWeb.Schema.Types',
                         'Elixir.GraphqlApiWeb.Schema.Types.SessionType',
                         'Elixir.GraphqlApiWeb.Schema.Types.Usertype',
