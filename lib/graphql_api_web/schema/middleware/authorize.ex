@@ -8,7 +8,7 @@ defmodule GraphqlApiWeb.Schema.Middleware.Authorize do
     else
       _ ->
         resolution
-        |> Absinthe.Resolution.put_result({:error, "unquthorized"})
+        |> Absinthe.Resolution.put_result({:error, "unauthorized"})
     end
   end
 
